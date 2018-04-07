@@ -34,13 +34,10 @@ def hit?(total)
   answer = get_user_input
   if answer == "s"
     total
-  end
   elsif answer == "h"
     total += deal_card
-  end
   else
     invalid_command
-  end
 end
 
 
